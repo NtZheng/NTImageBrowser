@@ -13,6 +13,7 @@
 		6A8F2DBC1DA4D7F30033CCF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A8F2DBA1DA4D7F30033CCF7 /* Main.storyboard */; };
 		6A8F2DBE1DA4D7F30033CCF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A8F2DBD1DA4D7F30033CCF7 /* Assets.xcassets */; };
 		6A8F2DC11DA4D7F30033CCF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A8F2DBF1DA4D7F30033CCF7 /* LaunchScreen.storyboard */; };
+		6A8F2DCB1DA4DA470033CCF7 /* NTImageBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8F2DCA1DA4DA470033CCF7 /* NTImageBrowser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6A8F2DBD1DA4D7F30033CCF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A8F2DC01DA4D7F30033CCF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A8F2DC21DA4D7F30033CCF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A8F2DC91DA4DA470033CCF7 /* NTImageBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTImageBrowser.h; sourceTree = "<group>"; };
+		6A8F2DCA1DA4DA470033CCF7 /* NTImageBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTImageBrowser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		6A8F2DB01DA4D7F30033CCF7 /* NTImageBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				6A8F2DC81DA4DA100033CCF7 /* NTImageBrowser */,
 				6A8F2DB41DA4D7F30033CCF7 /* AppDelegate.h */,
 				6A8F2DB51DA4D7F30033CCF7 /* AppDelegate.m */,
 				6A8F2DB71DA4D7F30033CCF7 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				6A8F2DB21DA4D7F30033CCF7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A8F2DC81DA4DA100033CCF7 /* NTImageBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				6A8F2DC91DA4DA470033CCF7 /* NTImageBrowser.h */,
+				6A8F2DCA1DA4DA470033CCF7 /* NTImageBrowser.m */,
+			);
+			path = NTImageBrowser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A8F2DCB1DA4DA470033CCF7 /* NTImageBrowser.m in Sources */,
 				6A8F2DB91DA4D7F30033CCF7 /* ViewController.m in Sources */,
 				6A8F2DB61DA4D7F30033CCF7 /* AppDelegate.m in Sources */,
 				6A8F2DB31DA4D7F30033CCF7 /* main.m in Sources */,
@@ -307,6 +321,7 @@
 				6A8F2DC71DA4D7F30033CCF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
