@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "NTImageBrowser.h"
 
-@interface ViewController ()
+@interface ViewController () <UIGestureRecognizerDelegate>
+
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
@@ -17,6 +20,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // 为UIImageView添加点击事件
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(imageViewClickAction :)];
+    [self.imageView addGestureRecognizer:tap];
 }
+
+- (void)imageViewClickAction : (UITapGestureRecognizer *)sender {
+    [NTImageBrowser showImageBrowserWithImageView:(UIImageView *)sender.view];
+}
+
+
+
+
 
 @end
