@@ -7,7 +7,7 @@
 需要做规划处理的话也可以将NTImageBrowser.m文件中的方法放到项目中定义好的工具类中
 ##### 2、直接使用类方法
 
-```
+```objc
 // 传入的是UIImageView类型的对象
 [NTImageBrowser showImageBrowserWithImageView:imageView];
 
